@@ -20,11 +20,11 @@ FIX Client: A Python-based Financial Information Exchange (FIX) Protocol Client.
  - The MessageHandler class handles incoming server responses.
  - It interprets response messages, updates the order status, and processes different types of messages.
  - The class is also initialized within the FixClient.
-Stats:
 
-The Stats class is designed to calculate trading statistics.
-It tracks trading volume, profit and loss (PNL), and the volume-weighted average price (VWAP) of the fills for each instrument.
-The statistics are continuously updated during the simulation.
+#### 4. Stats:
+ - The Stats class is designed to calculate trading statistics.
+ - It tracks trading volume, profit and loss (PNL), and the volume-weighted average price (VWAP) of the fills for each instrument.
+ - The statistics are continuously updated during the simulation.
 
 ## Usage
 To use this application, you can run it in a Docker container. Ensure you have Docker installed on your system.
